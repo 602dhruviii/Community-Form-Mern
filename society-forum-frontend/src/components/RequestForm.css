@@ -1,0 +1,98 @@
+/* src/components/RequestForm.css */
+.request-form-container {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.form-title {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #1da1f2;
+}
+
+.request-form {
+  margin-top: 3%;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.submit-button {
+  background-color: #1da1f2;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.submit-button:hover {
+  background-color: #0c84db;
+}
+
+/* src/components/RequestList.css */
+.request-list-container {
+  max-width: 1000px;
+  margin: 20px auto;
+}
+
+.request-item {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.resident-name {
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #1da1f2;
+}
+
+.request-content {
+  margin-bottom: 10px;
+}
+
+.request-image {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.likes {
+  color: #888888;
+  margin-bottom: 10px;
+}
+
+.like-button {
+  background-color: transparent;
+  color: #1da1f2;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.like-button:hover {
+  background-color: #e8f5fd;
+  color: #0c84db;
+}
